@@ -17,25 +17,25 @@ export default function Home() {
       <Navbar />
       <main className="pt-20">
         {/* Home */}
-        <motion.section
-          id="home"
-          className="min-h-screen flex flex-col justify-center items-center text-center px-4"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
-          <img
-            src="https://via.placeholder.com/160"
-            alt="Alonso Gaspar Cruz Farías"
-            className="w-40 h-40 rounded-full mb-4"
-          />
-          <h1 className="text-4xl font-bold mb-2">
-            Alonso Gaspar Cruz Farías
-          </h1>
-          <p className="mb-4 max-w-xl">
-            Ingeniero en Informática orientado al desarrollo de software,
-            liderazgo y servicio al cliente.
-          </p>
+          <motion.section
+            id="home"
+            className="min-h-screen flex flex-col justify-center items-center text-center px-4 bg-[url('https://via.placeholder.com/1920x1080.png?text=background')] bg-cover bg-center bg-black/70 bg-blend-overlay text-white"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <img
+              src="https://via.placeholder.com/400x400.png?text=profile"
+              alt="Alonso Gaspar Cruz Farías"
+              className="w-40 h-40 rounded-full mb-4"
+            />
+            <h1 className="text-4xl font-bold mb-2">
+              Alonso Gaspar Cruz Farías
+            </h1>
+            <p className="mb-4 max-w-xl">
+              Ingeniero en Informática orientado al desarrollo de software,
+              liderazgo y servicio al cliente.
+            </p>
           <div className="flex space-x-4">
             <a
               href="https://www.linkedin.com/in/alonsocruz/"
@@ -57,7 +57,7 @@ export default function Home() {
         {/* Sobre mí */}
         <motion.section
           id="about"
-          className="py-20 bg-gray-100 px-4"
+          className="py-20 px-4 text-white bg-[url('https://via.placeholder.com/1920x1080.png?text=background-alt')] bg-cover bg-center bg-fixed bg-black/70 bg-blend-overlay"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -75,7 +75,7 @@ export default function Home() {
         {/* Proyectos */}
         <motion.section
           id="projects"
-          className="py-20 px-4"
+          className="py-20 px-4 text-black bg-[url('https://via.placeholder.com/1920x1080.png?text=background-alt')] bg-cover bg-center bg-fixed bg-white/80 bg-blend-overlay"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -112,7 +112,7 @@ export default function Home() {
         {/* Certificaciones */}
         <motion.section
           id="certs"
-          className="py-20 bg-gray-100 px-4"
+          className="py-20 px-4 text-white bg-[url('https://via.placeholder.com/1920x1080.png?text=background-alt')] bg-cover bg-center bg-fixed bg-black/70 bg-blend-overlay"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -131,7 +131,7 @@ export default function Home() {
         {/* Experiencia */}
         <motion.section
           id="experience"
-          className="py-20 px-4"
+          className="py-20 px-4 text-black bg-[url('https://via.placeholder.com/1920x1080.png?text=background-alt')] bg-cover bg-center bg-fixed bg-white/80 bg-blend-overlay"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -148,7 +148,7 @@ export default function Home() {
         {/* Currículum */}
         <motion.section
           id="cv"
-          className="py-20 bg-gray-100 text-center px-4"
+          className="py-20 text-center px-4 text-white bg-[url('https://via.placeholder.com/1920x1080.png?text=background-alt')] bg-cover bg-center bg-fixed bg-black/70 bg-blend-overlay"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -162,7 +162,7 @@ export default function Home() {
         {/* Contacto */}
         <motion.section
           id="contact"
-          className="py-20 px-4"
+          className="py-20 px-4 text-black bg-[url('https://via.placeholder.com/1920x1080.png?text=background-alt')] bg-cover bg-center bg-fixed bg-white/80 bg-blend-overlay"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
